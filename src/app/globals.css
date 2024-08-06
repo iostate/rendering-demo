@@ -16,6 +16,17 @@
   }
 }
 
+.image-slider-container {
+  margin: 0 auto;
+  width: 400px;
+}
+
+.image-slider-container .slick-prev:before,
+.image-slider-container .slick-next:before {
+  color: white;
+}
+
+
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
